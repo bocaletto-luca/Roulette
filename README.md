@@ -7,7 +7,7 @@
 
 ## Overview 🚀
 
-**Casino Roulette – Definitive Release** is a modern, web-based casino roulette game built on a single HTML file. The game features:  
+**Casino Roulette – Definitive Release** is a modern, web-based casino roulette game built HTML, CSS, JavaScript files. The game features:  
 - An **Interactive Betting Board** with numbers 0 thru 90 in a grid where players can click to place bets.  
 - **External Betting Areas** for Color (Red/Black) and Odd/Even bets.  
 - **Chip Selection** so you can choose your wager from denominations 💵 $5, $10, $20, $50, and $100.  
