@@ -5,6 +5,8 @@
 [![Made with CSS3](https://img.shields.io/badge/Made%20with-CSS3-1572B6?logo=css3)](https://www.w3.org/Style/CSS/)
 [![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-F7DF1E?logo=javascript)](https://developer.mozilla.org/docs/Web/JavaScript)
 
+[![Test Online](https://img.shields.io/badge/Test%20Online-Click%20Here-brightgreen?style=for-the-badge)](https://bocaletto-luca.github.io/Roulette/)
+
 ## Overview 🚀
 
 **Casino Roulette – Definitive Release** is a modern, web-based casino roulette game built HTML, CSS, JavaScript files. The game features:  
