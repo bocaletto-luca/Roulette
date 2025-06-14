@@ -1,4 +1,4 @@
-# Casino Roulette – Definitive Release 🎰
+# Casino Roulette 🎰
 #### Author: Bocaletto Luca
 
 [![Made with HTML5](https://img.shields.io/badge/Made%20with-HTML5-E34F26?logo=html5)](https://www.w3.org/html/)
