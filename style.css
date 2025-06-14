@@ -1,0 +1,168 @@
+/* ========== RESET & GLOBAL STYLES ========== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #010130, #001f54);
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 10px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+      text-shadow: 0 0 8px #ff00ff;
+    }
+    /* ========== HUD: Player Info & Bank ========== */
+    #hud {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    #hud span {
+      margin: 0 10px;
+      font-size: 1.2em;
+      text-shadow: 0 0 5px #00ffff;
+    }
+    /* ========== CHIP SELECTION ========== */
+    #chipContainer {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .chip {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #ffd700, #ffa500);
+      color: #000;
+      font-weight: bold;
+      margin: 5px;
+      cursor: pointer;
+      user-select: none;
+      border: 2px solid #fff;
+    }
+    .chip.selected {
+      box-shadow: 0 0 10px #ff00ff;
+    }
+    /* ========== BETTING BOARD (Numbers 0 to 90) ========== */
+    #bettingBoard {
+      max-width: 900px;
+      margin: 0 auto 15px auto;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 2px;
+      border: 2px solid #00ffff;
+      background: #001f54;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    .betCell {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 8px;
+      border: 1px solid #00ffff;
+      cursor: pointer;
+      user-select: none;
+    }
+    .betCell:hover {
+      background: #333;
+    }
+    /* ========== External Betting Areas: Color & Odd/Even ========== */
+    .betArea {
+      margin: 10px auto;
+      max-width: 500px;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      background: #001f54;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+    }
+    .betOption {
+      background: #222;
+      color: #fff;
+      padding: 10px 15px;
+      border: 1px solid #00ffff;
+      cursor: pointer;
+      user-select: none;
+      text-shadow: 0 0 3px #000;
+    }
+    .betOption:hover {
+      background: #333;
+    }
+    /* ========== Roulette Wheel Area ========== */
+    #wheelContainer {
+      text-align: center;
+      margin: 20px auto;
+    }
+    #wheelCanvas {
+      background: #000;
+      border: 2px solid #00ffff;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+    /* ========== Spin Button ========== */
+    #spinButton {
+      display: block;
+      margin: 15px auto;
+      padding: 10px 20px;
+      font-size: 1.1em;
+      background: #28a745;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    #spinButton:hover {
+      background: #218838;
+    }
+    /* ========== Result Display ========== */
+    #resultDisplay {
+      text-align: center;
+      font-size: 1.3em;
+      margin-bottom: 20px;
+      text-shadow: 0 0 5px #ff00ff;
+    }
+    /* ========== High Score Board ========== */
+    #scoreboard {
+      max-width: 400px;
+      margin: 10px auto;
+      border: 2px solid #00ffff;
+      border-radius: 10px;
+      padding: 10px;
+      background: #001f54;
+    }
+    #scoreboard h3 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    #scoreboard table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    #scoreboard th, #scoreboard td {
+      border: 1px solid #00ffff;
+      padding: 5px;
+      text-align: center;
+    }
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5em; }
+      #hud span { font-size: 1em; }
+      .chip { width: 40px; height: 40px; line-height: 40px; }
+      .betCell { font-size: 0.9em; padding: 4px; }
+      #wheelCanvas { width: 300px; height: 300px; }
+    }
