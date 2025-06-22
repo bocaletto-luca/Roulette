@@ -70,3 +70,5 @@ Color/Odd-Even Bet: Pays 1:1 (if not 0). Your bank balance will update according
 Check High Scores: Your top results are recorded and displayed on the High Score Board.
 
 #### Enjoy Game - By Bocaletto Luca
+
+#### License: GPLv3
